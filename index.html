@@ -57,7 +57,8 @@ p, li { text-wrap: pretty; }
 .doc-body td { background: var(--sheet); min-width: 110px; }
 .meta th { width: 150px; background: var(--paper); font-weight: 400; color: var(--muted); }
 .meta td { background: var(--sheet); }
-.doc-body code { font: inherit; background: #eef0f4; border-radius: 4px; padding: 0 3px; }
+.doc-body code { font: inherit; background: #eef0f4; border-radius: 4px; padding: 0 3px; overflow-wrap: anywhere; }
+.doc-body { overflow-wrap: break-word; }
 .doc-body blockquote { margin: 10px 0; padding: 10px 14px; background: var(--new-bg); border-radius: 8px; }
 .doc-body blockquote p { margin: 6px 0; }
 .lbl { font: 700 13px/1.2 var(--f-mono); font-family: var(--f-mono); letter-spacing: .06em; text-transform: uppercase; margin: 26px 0 6px; }
